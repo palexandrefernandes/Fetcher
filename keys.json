@@ -1,0 +1,17 @@
+{
+    "youtube": {
+        "token": "",
+        "baseURI": "https://www.googleapis.com/youtube/v3/"
+    },
+    "imgur": {
+        "token": "",
+        "baseURI": "https://api.imgur.com/3/"
+    },
+    "reddit": {
+        "baseURI": "https://www.reddit.com/"
+    },
+    "twitter":{
+        "token": "",
+        "baseURI": "https://api.twitter.com/1.1/"
+    }
+}

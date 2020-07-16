@@ -1,0 +1,228 @@
+body{
+    background: linear-gradient(89deg, #ff0000, #94ff00, #00fdff, #c500ff);
+    background-size: 800% 800%;
+    -webkit-animation: GradientAnimation 9s ease infinite;
+    -moz-animation: GradientAnimation 9s ease infinite;
+    animation: GradientAnimation 9s ease infinite;
+}
+
+#hero-container{
+    background-color: #111;
+    color: #FFF;
+    padding: 50px;
+    height: 45vh;
+    border-radius: 0 0 0 200px;
+    position: relative;
+    background-image: #111;
+    margin-bottom: 5vh;
+}
+
+
+#content-wrapper{
+    background: #FFF;
+    border-radius: 0 200px 0 0;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+
+#info{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#info p{
+    color: #999;
+    margin: 0;
+}
+
+#title{
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase;
+    font-size: 10vmin;
+    margin: 0;
+}
+
+#search{
+    border: solid 1px transparent;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px 20px;
+    text-align: center;
+    color: #000;
+    background-clip: padding-box;
+    width: 20vw;    
+}
+
+#search::placeholder{
+    color: #555;
+}
+
+#down{
+    border: solid;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 2em;
+    margin-top: 30px;
+    background: #111;
+    color: #FFF;
+    border-color: #FFF;
+}
+
+#down:hover{
+    background: #FFF;
+    color: #111;
+    transition: ease-in .1s;
+}
+
+@-webkit-keyframes GradientAnimation {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@-moz-keyframes GradientAnimation {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@keyframes GradientAnimation {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+
+.item{
+    border:1px solid #DDD;
+    margin-bottom: 30px;
+    padding: 8vh 5vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 56px -6px rgba(56,56,56,0.2);
+    -moz-box-shadow: 0px 0px 56px -6px rgba(56,56,56,0.2);
+    box-shadow: 0px 0px 56px -6px rgba(56,56,56,0.2);
+}
+
+.social{
+    font-size: 2em;
+}
+
+.profile-image img{
+    max-width: 100%;
+}
+
+.media-content img{
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.media-content p{
+    word-wrap: break-word;
+}
+
+.media-content video{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.media-content img + p, .media-content iframe + p, .media-content video + p{
+    margin-top: 10px;
+}
+
+.media-content iframe{
+    min-width: 100%;
+}
+
+#phrase{
+    transition: 0.5s;
+    display: hidden;
+}
+
+.item > .row:nth-of-type(1), .item > .row:nth-of-type(3){
+    margin-bottom: 10px;
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 6px;
+}
+
+.what-image{
+    max-width: 100%;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5{
+    word-wrap:break-word;
+}
+
+.spinner{
+    position: fixed;
+    z-index: 5;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    background: #111;
+    display: none;
+}
+
+#up{
+    border: solid;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 2em;
+    margin-top: 20px;
+    background: #FFF;
+    color: #111;
+    border-color: #111;
+    z-index: 5;
+    position: fixed;
+    bottom:10vh;
+    right:10vw;
+    text-align: center;
+    display: none;
+}
+
+#up > i {
+    position: relative;
+    top: 20%;
+    transform: translateY(-20%);
+}
+
+#up:hover{
+    background: #111;
+    color: #FFF;
+    transition: ease-in .1s;
+}
+
+#tech{
+    padding: 5vh 10vw;
+    background: rgba(0,0,0, 0.75);
+}
+
+#tech h1{
+    color: #FFF;
+    font-family: 'Alatsi', sans-serif;
+    margin-bottom: 20px;
+}
+
+#tech .row {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.tech-card{
+    background: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 56px -6px rgba(56,56,56,0.2);
+    -moz-box-shadow: 0px 0px 56px -6px rgba(56,56,56,0.2);
+    box-shadow: 0px 0px 56px -6px rgba(56,56,56,0.2);
+}
+
+.dev{
+    font-size: 10em;
+}
+
